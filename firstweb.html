@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bookworld.com</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi:wght@700&family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      background-image: url('image/Famous-Bookstores-in-India.jpg');
+      height: 900px;
+      background-size: 1390px;
+     
+    }
+    /* .navbarsticky{
+      position: sticky;
+      top: 6px;
+    } */
+    
+  h3{
+    display: block;
+   margin: 0px auto;
+   width: 377px;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   background-color: rgb(255, 98, 0);
+   border-radius: 16px;
+   padding: 3px;
+    font-size: 19px;
+   
+   font-family: 'Poppins', sans-serif;
+  }
+  .left{
+    color: white;
+       
+  }
+  .mid{
+     text-align: center;
+     margin: 0px;
+  }
+  .right{
+   float: right;
+   top: 6px;
+   color: white;
+  }
+  .left img{
+    width: 40px;
+    filter: invert(100%);
+    position: absolute;
+    top: 5px;
+    left: 20px;
+   
+  }
+  .right img{
+    width: 34px;
+    position: absolute;
+    top: 7px;
+    right: 125px;
+    filter: invert(100%);
+  }
+  .navbar li a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .navbar li a:hover{
+    
+    text-decoration: underline;
+    color: rgb(190, 190, 190);
+    font-size: 14px;
+    
+  }
+  .navbar li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px;
+    }
+
+  .navbar{
+    
+    width: 450px;
+    display: inline-block;
+    padding: 4px;
+    background-color: rgb(255, 98, 0);
+  }
+  #CALL{
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+
+  }
+  #CALL:hover{
+    text-decoration: underline;
+    color:rgb(190, 190, 190); ;
+  }
+  .right img:hover{
+    width: 33px;
+    cursor: pointer;
+
+  }
+  .left p{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+   }
+   .CONTAINER{
+    border: 3px solid rgb(255, 255, 255);
+    height: 790px;
+    border-radius: 14px;
+    background-color: #000000cc;
+   }
+   .FORM{
+    background-color: #ff7400a6;
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 26px;
+    top: 140px;
+   }
+   .FORM h2{
+    text-align: center;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-size: 22px;
+    color: white;
+
+   }
+   .FORM input{
+    display: block;
+    font-size: 16px;
+    margin: 8px auto;
+    width: 350px;
+    border: none;
+    padding: 4px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    cursor: pointer;
+   }
+   .FORM input:hover{
+    background-color: rgb(229, 229, 229);
+    font-size: 17px;
+   }
+   .btn{
+    display: block;
+    width: 340px;
+    margin: 15px auto;
+    padding: 6px;
+    font-size: 14px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    background-color: rgb(0 211 255);
+    border-radius: 6px;
+    border: none;
+
+   }
+   .btn:hover{
+    background-color: rgb(0, 163, 227);
+    cursor: pointer;
+   }
+   
+   h1{
+    color: white;
+    float: right;
+    position: absolute;
+    right: 36px;
+    width: 900px;
+    background-color: #f4f4f4ad;
+    text-align: center;
+    height: 700px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    margin-top: 16px auto;
+    text-shadow: 1px -1px black;
+   
+  }
+   .STORE img{
+    width: 120px;
+    float: right;
+    margin: 105px 786px;
+    filter: drop-shadow(1px 1px 2px);
+    }
+    .butn{
+     position: absolute;
+      left: 464px; 
+      top: 420px;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 120px;
+      cursor: pointer;
+      height: 30px;
+      background-color: rgb(255, 140, 0);
+    }
+    #butn2{
+      position: absolute;
+      left: 464px; 
+      top: 454px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      width: 120px;
+      height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(255, 140, 0);
+    }
+    .butn:hover{
+      /* background-color: rgb(193, 106, 0);
+      color: rgb(185, 185, 185); */
+      text-decoration: underline;
+      filter: drop-shadow(1px 1px 2px black);
+    }
+    #butn2:hover{
+      /* background-color: rgb(193, 106, 0);
+      color: rgb(185, 185, 185); */
+      text-decoration: underline;
+      filter: drop-shadow(1px 1px 2px black);
+    }
+    #book1 img{
+       float: right;
+    }
+    .buton1{
+      position: absolute;
+      top: 420px;
+      left: 836px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      width: 120px;
+      height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(255, 140, 0);
+    }
+    #butn1{
+      position: absolute;
+      top: 454px;
+      left: 836px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      width: 120px;
+      height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(255, 140, 0);
+    }
+    #book1 img{
+    position: absolute;
+    top: 120px;
+    width: 114px;
+    left: 53px;
+    }
+    #book2 img{
+      position: absolute;
+    top: 120px;
+    width: 114px;
+    left: 425px;
+    }
+    .buton2{
+      position: absolute;
+      top: 420px;
+      right: 52px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      width: 120px;
+      height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(255, 140, 0);
+    }
+    #butn3{
+      position: absolute;
+      top: 454px;
+      right: 52px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      width: 120px;
+      height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(255, 140, 0);
+    }
+    #book3 img{
+      width: 120px;
+    float: right;
+    margin: 15px 786px;
+    filter: drop-shadow(1px 1px 2px);
+    }
+    .buton3{
+      position: absolute;
+      top: 714px;
+      left: 465px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      width: 120px;
+      height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(255, 140, 0);
+    }
+    #butn4{
+      position: absolute;
+      top: 748px;
+      left: 465px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      width: 120px;
+      height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(255, 140, 0);
+    }
+    /* .con button:hover{
+      text-decoration: underline;
+      filter: drop-shadow(1px 1px 2px black);
+      font-size: 14px;
+    } */
+  </style>
+</head>
+<body>
+  <div class="navbarsticky">
+  <h3>BOOK &nbsp; WORLD </h3>
+  <div class="left">
+    <p> Today a Reader, Tomorrow a  Leader </p>
+    <img src="image/books-stack-of-three.png" alt="">
+  </div>
+  <div class="mid">
+    <ul class="navbar">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">BOOKS</a></li>
+      <li><a href="#">NEW PUBLISHED</a></li>
+      <li><a href="#"> POPULAR</a></li>
+    </ul>
+  </div>
+  <div class="right">
+        <div id="CALL">
+          CONTACT US
+        </div>
+    <img src="image/phone-call (1).png" alt="">
+  </div>
+</div>
+
+  <div class="CONTAINER">
+
+    <div class="FORM">
+      <h2>JOIN WITH US </h2>
+     <form action="" onsubmit="colectData(e)">
+      <div>
+    <input type="text" name="name" placeholder="ENTER YOUR NAME">
+  </div>
+  <div>
+    <input type="text" name="age" placeholder="ENTER YOUR AGE">
+  </div>
+  <div>
+    <input type="text" name="gender" placeholder="ENTER YOUR GENDER">
+  </div>
+  <div>
+    <input type="text" name="phone" placeholder="ENTER YOUR PHONE">
+  </div>
+  <div>
+    <input type="mail" name="email" placeholder="ENTER YOUR MAIL">
+  </div>
+  <div>
+    <button class="btn" type="submit">SUBMIT NOW </button>
+  </div>
+</div>
+</form>
+  <div class="STORE">
+    <h1> BOOKS &nbsp; STORE <hr style="border: 3px solid rgb(255, 132, 0);"> </h1>
+<div class="con">
+    <img src="image/psychology of money.jpg" alt="">
+      <button class="butn"> BUY NOW </button>
+      <button id="butn2"> ADD TO CART</button>
+          <!-- <p> this book is all about money in this book author has tried to explain about  money</p> -->
+<div class="book" id="book1">
+    <img src="image/powr of subconscious mind.webp" alt="">
+      <button class="buton1"> BUY NOW </button>
+      <button id="butn1"> ADD TO CART</button>
+    </div>
+
+<div class="book" id="book2">
+    <img src="image/how-to-win-friends-and-influence-people-original-imag964nvzaxkrya.webp" alt="">
+      <button class="buton2"> BUY NOW </button>
+      <button id="butn3"> ADD TO CART</button>
+    </div>
+
+      <div class="book" id="book3">
+    <img src="image/atomic habbit.webp" alt="">
+      <button class="buton3"> BUY NOW </button>
+      <button id="butn4"> ADD TO CART</button>
+    </div>
+    </div>
+
+
+  </div>
+</div>
+</body>
+<!-- <script>
+function colectData(e) {
+  e.preventDefault(); // Prevents the default form submission behavior
+
+  // Access form data
+  var formData = {
+    name: document.forms["myForm"]["name"].value,
+    age: document.forms["myForm"]["age"].value,
+    gender: document.forms["myForm"]["gender"].value,
+    phone: document.forms["myForm"]["phone"].value,
+    email: document.forms["myForm"]["email"].value,
+  };
+
+  // Log the collected data
+  console.log("Collected Data:", formData);
+}
+  function nextPage(){
+    let uri = prompt("Enter your page name");
+    document.getElementById("buynow").href=uri;
+  }
+
+  // nextPage();
+</script> -->
+</html>
